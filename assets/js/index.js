@@ -1,4 +1,4 @@
-const getUserInfo = () => {
+function getUserInfo() {
     $.ajax({
         type: 'GET',
         url: "/my/userinfo",
